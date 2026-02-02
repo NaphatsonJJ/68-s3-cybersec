@@ -21,7 +21,7 @@ cp env.simple .env
 
 ### Running services
 ### Database
-'''sh
+```sh
 docker compose -f  db.yaml up # monitoring
 docker compose -f  db.yaml up -d # background
 ```
