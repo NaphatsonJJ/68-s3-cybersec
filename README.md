@@ -11,3 +11,17 @@
 
 ## Last Changed
 - 26/01/2569 | 15:09
+
+
+### Environment
+```sh
+cp env.simple .env
+```
+
+
+### Running services
+### Database
+'''sh
+docker compose -f  db.yaml up # monitoring
+docker compose -f  db.yaml up -d # background
+```
